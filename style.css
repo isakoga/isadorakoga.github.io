@@ -10,9 +10,11 @@ header {
 }
 
 h1 {
+    font-family: 'Grenze Gotisch', fantasy;
     text-align: center;
     font-size: 4em;
     color: #10002b;
+    font-weight: 700;
 }
 
 .links-header {
@@ -20,10 +22,28 @@ h1 {
     color: black;
 }
 
+a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #foto-perfil {
     width: 150px;
     border-radius: 50%;
     position: relative;
+}
+
+h2 {
+    font-family: 'Grenze Gotisch', fantasy;
+    font-weight: 400;
+}
+
+p, li {
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: square;
 }
 
 .aboutme {
